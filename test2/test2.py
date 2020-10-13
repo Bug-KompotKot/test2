@@ -1,10 +1,12 @@
 from typing import Any, List
 
+
 def foo(a: str) -> str:
-    return '(' + a.split() + ')'
+    # return "(" + a.split() + ")"
+    return a
+
 
 def main():
     print(
         "The AWS CLI stores sensitive credential information that you specify with aws configure in a local file..."
     )
-
